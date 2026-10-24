@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171b18">
+  <meta name="description" content="Little Mama — an intimate Italian table for slow evenings, handmade pasta and a little more time together.">
+  <title>Little Mama — An Italian Table</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="wordmark" href="#home" aria-label="Little Mama home">Little <span>Mama</span><i aria-hidden="true">.</i></a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#story">Our story</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#reservation">Reservation</a>
+        <a href="#contact">Contact</a>
+        <a class="button button--small nav-reserve" href="#reservation">Reserve a table</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <!-- Portrait source: 736 × 920 px. Cropped with object-fit for the wide hero; replace with a landscape image when available. -->
+      <img class="hero-image" src="images/hero.jpg" alt="Colorful spiral ratatouille arranged in a ceramic baking dish" width="736" height="920" fetchpriority="high">
+      <div class="hero-shade"></div>
+      <div class="hero-content container">
+        <p class="eyebrow hero-eyebrow"><span></span> A little taste of Italy <span></span></p>
+        <h1 id="hero-title">Little <em>Mama</em></h1>
+        <p class="hero-subtitle">Gather close. Stay a little longer.</p>
+        <p class="hero-copy">Handmade with heart, served with love.<br>There’s always room at our table.</p>
+        <div class="hero-actions">
+          <a class="button" href="#menu">Explore the menu</a>
+          <a class="button button--outline" href="#reservation">Book a table</a>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#story" aria-label="Scroll to our story"><span></span> Scroll to discover</a>
+      <span class="hero-note" aria-hidden="true">EST. WITH LOVE</span>
+    </section>
+
+    <section class="section story-section" id="story" aria-labelledby="story-title">
+      <div class="container story-grid">
+        <div class="story-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-rule"></span> A seat at our table</p>
+          <h2 id="story-title">A little like <em>coming home.</em></h2>
+          <p class="lead">Somewhere between the first pour and the last bite, dinner becomes a story worth telling.</p>
+          <p>Little Mama was made for long lunches, candlelit suppers and the beautiful art of gathering. Our kitchen follows the seasons, our pasta is rolled by hand, and every plate starts with the kind of care you can taste.</p>
+          <p>Inspired by the Italian family table, we believe the best ingredient is always another place set.</p>
+          <a class="text-link" href="#reservation">Come on in <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="story-visual reveal">
+          <div class="story-frame">
+            <!-- Warm dining-room portrait; original size 736 × 1104 px. -->
+            <img src="images/story-1.jpg" alt="Little Mama’s intimate dining room, warmly lit among leafy green plants" loading="lazy" width="736" height="1104">
+          </div>
+          <div class="story-stamp" aria-hidden="true"><span>fatto</span><b>con</b><span>amore</span><i>✳</i></div>
+          <span class="visual-caption">THE HEART OF LITTLE MAMA</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section signature-section" id="signatures" aria-labelledby="signature-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span class="eyebrow-rule"></span> From our kitchen, with love <span class="eyebrow-rule"></span></p>
+          <h2 id="signature-title">A few <em>favourites.</em></h2>
+          <p>Made slowly. Shared generously.</p>
+        </div>
+        <div class="dish-grid">
+          <article class="dish-card reveal">
+            <!-- Portrait photo: 736 × 1104 px; the central plate stays in view when cropped. -->
+            <div class="dish-image"><img src="images/dish-1.jpg" alt="Grilled bruschetta topped with fresh chopped tomatoes and herbs" loading="lazy" width="736" height="1104"><span class="dish-number">01</span></div>
+            <div class="dish-info"><div><h3>Bruschetta al Pomodoro</h3><p>Grilled bread, sweet tomatoes, basil, a little olive oil.</p></div><span class="price">$16</span></div>
+          </article>
+          <article class="dish-card reveal">
+            <!-- Portrait photo: 736 × 1308 px; keep the baked cheese, tomatoes and toast centered. -->
+            <div class="dish-image dish-image--baked-cheese"><img src="images/dish-2.jpg" alt="A wheel of soft cheese baked with tomatoes and herbs, surrounded by toasted bread" loading="lazy" width="736" height="1308"><span class="dish-number">02</span></div>
+            <div class="dish-info"><div><h3>Baked Brie &amp; Crostini</h3><p>Warm, herbed cheese, cherry tomatoes and golden toast for sharing.</p></div><span class="price">$22</span></div>
+          </article>
+          <article class="dish-card reveal">
+            <!-- Portrait photo: 736 × 920 px; the vegetable spiral fills a gently cropped card. -->
+            <div class="dish-image"><img src="images/dish-3.jpg" alt="Spiral arrangement of zucchini, tomato and eggplant in a green baking dish" loading="lazy" width="736" height="920"><span class="dish-number">03</span></div>
+            <div class="dish-info"><div><h3>Summer Vegetable Tian</h3><p>Layers of market vegetables, sweet tomato and fresh herbs.</p></div><span class="price">$24</span></div>
+          </article>
+        </div>
+        <div class="center-action reveal"><a class="text-link" href="#menu">See the full menu <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="section menu-section" id="menu" aria-labelledby="menu-title">
+      <div class="container menu-container">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span class="eyebrow-rule"></span> What’s cooking <span class="eyebrow-rule"></span></p>
+          <h2 id="menu-title">The <em>menu.</em></h2>
+          <p>Seasonal, soulful and best enjoyed together.</p>
+        </div>
+        <div class="menu-tabs reveal" role="tablist" aria-label="Menu categories">
+          <button class="menu-tab is-active" type="button" role="tab" id="tab-starters" aria-selected="true" aria-controls="panel-starters" tabindex="0">Starters</button>
+          <button class="menu-tab" type="button" role="tab" id="tab-mains" aria-selected="false" aria-controls="panel-mains" tabindex="-1">Mains</button>
+          <button class="menu-tab" type="button" role="tab" id="tab-desserts" aria-selected="false" aria-controls="panel-desserts" tabindex="-1">Desserts</button>
+          <button class="menu-tab" type="button" role="tab" id="tab-drinks" aria-selected="false" aria-controls="panel-drinks" tabindex="-1">Drinks</button>
+        </div>
+        <div class="menu-showcase reveal">
+          <div class="menu-panels">
+            <div class="menu-panel" role="tabpanel" id="panel-starters" aria-labelledby="tab-starters" tabindex="0">
+              <div class="menu-item"><div><h3>Warm focaccia</h3><p>Rosemary, Sicilian olive oil, sea salt</p></div><span>$9</span></div>
+              <div class="menu-item"><div><h3>Whipped ricotta</h3><p>Charred peach, wildflower honey, grilled sourdough</p></div><span>$16</span></div>
+              <div class="menu-item"><div><h3>Little gem salad</h3><p>Parmigiano, lemon, toasted hazelnut</p></div><span>$17</span></div>
+              <div class="menu-item"><div><h3>Arancini of the day</h3><p>Saffron rice, smoked mozzarella, tomato sugo</p></div><span>$18</span></div>
+            </div>
+            <div class="menu-panel" role="tabpanel" id="panel-mains" aria-labelledby="tab-mains" tabindex="0" hidden>
+              <div class="menu-item"><div><h3>Nonna’s Sunday ragù</h3><p>Hand-cut pappardelle, slow-braised beef, parmesan</p></div><span>$28</span></div>
+              <div class="menu-item"><div><h3>Lemon &amp; brown butter ravioli</h3><p>Ricotta, sage, toasted hazelnut</p></div><span>$27</span></div>
+              <div class="menu-item"><div><h3>Wild mushroom risotto</h3><p>Porcini, aged pecorino, thyme</p></div><span>$29</span></div>
+              <div class="menu-item"><div><h3>Sunday roast chicken</h3><p>Rosemary potatoes, market greens, pan jus</p></div><span>$34</span></div>
+            </div>
+            <div class="menu-panel" role="tabpanel" id="panel-desserts" aria-labelledby="tab-desserts" tabindex="0" hidden>
+              <div class="menu-item"><div><h3>Little Mama’s tiramisù</h3><p>Espresso, mascarpone, savoiardi, cocoa</p></div><span>$14</span></div>
+              <div class="menu-item"><div><h3>Olive oil cake</h3><p>Blood orange, crème fraîche</p></div><span>$13</span></div>
+              <div class="menu-item"><div><h3>Vanilla panna cotta</h3><p>Poached pear, rosemary honey</p></div><span>$13</span></div>
+              <div class="menu-item"><div><h3>Affogato</h3><p>House-made vanilla gelato, double espresso</p></div><span>$11</span></div>
+            </div>
+            <div class="menu-panel" role="tabpanel" id="panel-drinks" aria-labelledby="tab-drinks" tabindex="0" hidden>
+              <div class="menu-item"><div><h3>Aperol spritz</h3><p>Aperol, prosecco, a little sparkle</p></div><span>$17</span></div>
+              <div class="menu-item"><div><h3>House negroni</h3><p>Gin, bitter orange, sweet vermouth</p></div><span>$19</span></div>
+              <div class="menu-item"><div><h3>Italian white, by the glass</h3><p>Ask us what we’re pouring tonight</p></div><span>$18</span></div>
+              <div class="menu-item"><div><h3>Something sparkling</h3><p>Prosecco, served chilled</p></div><span>$20</span></div>
+            </div>
+          </div>
+          <figure class="menu-featured">
+            <!-- Featured menu photo follows the selected menu category; original images are all portrait. -->
+            <img id="menu-feature-image" src="images/dish-1.jpg" alt="Bruschetta topped with tomatoes and fresh herbs" loading="lazy" width="736" height="1104">
+            <figcaption><span>A little something from our kitchen</span><strong id="menu-feature-title">Bruschetta al Pomodoro</strong></figcaption>
+          </figure>
+        </div>
+        <p class="menu-note reveal">A little note: our menu follows the seasons. Please let us know about dietary needs when you visit.</p>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span class="eyebrow-rule"></span> Little moments <span class="eyebrow-rule"></span></p>
+          <h2 id="gallery-title">Around <em>our table.</em></h2>
+        </div>
+        <div class="gallery-grid">
+          <!-- Dining-room portrait, 736 × 1104 px. -->
+          <button class="gallery-item gallery-item--tall reveal" type="button" data-lightbox="images/story-1.jpg" data-alt="The softly lit restaurant interior, framed by leafy plants"><img src="images/story-1.jpg" alt="A warmly lit Little Mama dining room framed by leafy plants" loading="lazy" width="736" height="1104"><span class="gallery-zoom" aria-hidden="true">+</span></button>
+          <!-- Bruschetta portrait, 736 × 1104 px. -->
+          <button class="gallery-item reveal" type="button" data-lightbox="images/dish-1.jpg" data-alt="Bruschetta with chopped tomatoes and herbs"><img src="images/dish-1.jpg" alt="Bruschetta topped with chopped tomatoes and herbs" loading="lazy" width="736" height="1104"><span class="gallery-zoom" aria-hidden="true">+</span></button>
+          <!-- Baked cheese and crostini portrait, 736 × 1308 px. -->
+          <button class="gallery-item reveal" type="button" data-lightbox="images/dish-2.jpg" data-alt="A baked wheel of soft cheese with cherry tomatoes, herbs and toasted bread"><img src="images/dish-2.jpg" alt="A baked wheel of soft cheese with cherry tomatoes, herbs and toasted bread" loading="lazy" width="736" height="1308"><span class="gallery-zoom" aria-hidden="true">+</span></button>
+          <!-- Ricotta cheesecake portrait, 735 × 1102 px. -->
+          <button class="gallery-item gallery-item--tall reveal" type="button" data-lightbox="images/dessert-1.jpg" data-alt="Ricotta cheesecake topped with fresh berries"><img src="images/dessert-1.jpg" alt="A slice of ricotta cheesecake with strawberries, raspberries and blueberries" loading="lazy" width="735" height="1102"><span class="gallery-zoom" aria-hidden="true">+</span></button>
+          <!-- Cannoli portrait, 736 × 1104 px. -->
+          <button class="gallery-item reveal" type="button" data-lightbox="images/dessert-2.jpg" data-alt="Sicilian cannoli with chocolate chips and powdered sugar"><img src="images/dessert-2.jpg" alt="Golden cannoli filled with ricotta cream and chocolate chips" loading="lazy" width="736" height="1104"><span class="gallery-zoom" aria-hidden="true">+</span></button>
+          <!-- Ratatouille portrait, 736 × 920 px. -->
+          <button class="gallery-item reveal" type="button" data-lightbox="images/dish-3.jpg" data-alt="Spiral ratatouille in a green casserole dish"><img src="images/dish-3.jpg" alt="Colorful spiral ratatouille baked in a green ceramic dish" loading="lazy" width="736" height="920"><span class="gallery-zoom" aria-hidden="true">+</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reservation-section" id="reservation" aria-labelledby="reservation-title">
+      <div class="reservation-backdrop" aria-hidden="true"></div>
+      <div class="container reservation-grid">
+        <div class="reservation-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-rule"></span> Save your seat</p>
+          <h2 id="reservation-title">There’s a place <em>for you.</em></h2>
+          <p class="lead">A slow dinner is just around the corner.</p>
+          <p>Tell us when you’re coming and we’ll set the table. For parties of seven or more, please give us a call.</p>
+          <a class="reservation-phone" href="tel:+212610433153">+212610433153</a>
+        </div>
+        <form class="reservation-form reveal" id="reservation-form">
+          <div class="form-grid">
+            <label class="form-field">Your name<input name="name" type="text" autocomplete="name" placeholder="Name" required></label>
+            <label class="form-field">Phone number<input name="phone" type="tel" autocomplete="tel" placeholder="+1 (555) 000-0000" required></label>
+            <label class="form-field">Date<input name="date" type="date" required></label>
+            <label class="form-field">Time<select name="time" required><option value="" disabled selected>Select a time</option><option>5:00 PM</option><option>5:30 PM</option><option>6:00 PM</option><option>6:30 PM</option><option>7:00 PM</option><option>7:30 PM</option><option>8:00 PM</option><option>8:30 PM</option></select></label>
+            <label class="form-field form-field--full">Guests<select name="guests" required><option value="" disabled selected>Number of guests</option><option>1 guest</option><option>2 guests</option><option>3 guests</option><option>4 guests</option><option>5 guests</option><option>6 guests</option></select></label>
+            <label class="form-field form-field--full">A note for us <span class="optional">(optional)</span><textarea name="message" rows="2" placeholder="A special occasion, dietary note..."></textarea></label>
+          </div>
+          <button class="button form-submit" type="submit">Request a table <span aria-hidden="true">→</span></button>
+          <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+          <p class="form-note">Your request is a front-end demo and won’t be sent to the restaurant.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section testimonials-section" id="kind-words" aria-labelledby="testimonials-title">
+      <div class="container testimonial-container">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span class="eyebrow-rule"></span> Kind words from our guests <span class="eyebrow-rule"></span></p>
+          <h2 id="testimonials-title">A little <em>love note.</em></h2>
+        </div>
+        <div class="testimonial-carousel reveal" aria-roledescription="carousel" aria-label="Guest testimonials">
+          <figure class="quote-slide is-active" aria-hidden="false"><span class="quote-mark" aria-hidden="true">“</span><blockquote>It felt like being welcomed into someone’s home — if that home happened to serve the best pasta in the city.</blockquote><figcaption><span class="quote-stars" aria-label="5 out of 5 stars">★★★★★</span><span>Olivia R.</span></figcaption></figure>
+          <figure class="quote-slide" aria-hidden="true" hidden><span class="quote-mark" aria-hidden="true">“</span><blockquote>Every detail is lovely, the food is unforgettable, and somehow you never want the evening to end.</blockquote><figcaption><span class="quote-stars" aria-label="5 out of 5 stars">★★★★★</span><span>Daniel M.</span></figcaption></figure>
+          <figure class="quote-slide" aria-hidden="true" hidden><span class="quote-mark" aria-hidden="true">“</span><blockquote>Our new favourite table. Come for dinner, stay for dessert, leave already planning your next visit.</blockquote><figcaption><span class="quote-stars" aria-label="5 out of 5 stars">★★★★★</span><span>Amelia &amp; James</span></figcaption></figure>
+          <div class="carousel-controls">
+            <button type="button" class="carousel-arrow" data-direction="-1" aria-label="Previous testimonial">←</button>
+            <div class="carousel-dots" aria-label="Choose a testimonial">
+              <button type="button" class="carousel-dot is-active" aria-label="Show testimonial 1" aria-current="true"></button>
+              <button type="button" class="carousel-dot" aria-label="Show testimonial 2" aria-current="false"></button>
+              <button type="button" class="carousel-dot" aria-label="Show testimonial 3" aria-current="false"></button>
+            </div>
+            <button type="button" class="carousel-arrow" data-direction="1" aria-label="Next testimonial">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="contact-intro reveal">
+          <p class="eyebrow"><span class="eyebrow-rule"></span> Find your way here</p>
+          <h2 id="contact-title">The table is <em>waiting.</em></h2>
+          <p>In the heart of the neighbourhood, around the corner from wherever you are.</p>
+          <a class="text-link" href="https://maps.google.com/?q=Little+Mama+Restaurant+New+York" target="_blank" rel="noreferrer">Get directions <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="contact-details reveal">
+          <div class="contact-block"><h3>Come find us</h3><address>18 Orchard Street<br>New York, NY 10002</address></div>
+          <div class="contact-block"><h3>Pull up a chair</h3><p>Tuesday – Thursday <span>5 – 10 pm</span><br>Friday – Saturday <span>5 – 11 pm</span><br>Sunday <span>4 – 9 pm</span><br>Monday <span>Taking a little rest</span></p></div>
+          <div class="contact-block"><h3>Say hello</h3><p><a href="tel:+21261043153">+21261043153</a><br><a href="mailto:ciao@littlemama.example">ciao@littlemama.example</a></p></div>
+          <div class="contact-block social-block"><h3>Follow along</h3><div class="social-links"><a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram">ig</a><a href="https://www.facebook.com/" target="_blank" rel="noreferrer" aria-label="Facebook">f</a></div></div>
+        </div>
+        <div class="map-placeholder reveal" role="img" aria-label="Illustrated map placeholder showing Little Mama on Orchard Street">
+          <span class="map-street map-street--one">ORCHARD STREET</span><span class="map-street map-street--two">DELANCEY STREET</span>
+          <span class="map-pin"><i aria-hidden="true">✳</i><b>Little Mama</b></span>
+          <span class="map-neighborhood">LOWER EAST SIDE · NEW YORK</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="wordmark" href="#home">Little <span>Mama</span><i aria-hidden="true">.</i></a>
+      <p>Made with love, meant to be shared.</p>
+      <span>© <span id="year">2026</span> Little Mama</span>
+    </div>
+  </footer>
+
+  <dialog class="lightbox" aria-label="Enlarged gallery image">
+    <button class="lightbox-close" type="button" aria-label="Close image">×</button>
+    <img alt="">
+  </dialog>
+</body>
+</html>
